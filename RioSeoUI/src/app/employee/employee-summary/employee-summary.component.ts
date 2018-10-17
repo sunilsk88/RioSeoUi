@@ -9,8 +9,4 @@ export class EmployeeSummaryComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
-
-  addEmployee() {
-    //this.router.navigate(["claims/new"]);
-  }
 }
