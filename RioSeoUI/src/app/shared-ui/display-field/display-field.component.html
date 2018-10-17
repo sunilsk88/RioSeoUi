@@ -1,0 +1,8 @@
+<div [ngStyle]="style">
+  <label for={{id}}>
+    <span>{{label}}</span>
+  </label>
+  <div id={{id}} class="content" [attr.title]="tooltip" [attr.wrap]="wordWrap">
+    <ng-content></ng-content>
+  </div>
+</div>
