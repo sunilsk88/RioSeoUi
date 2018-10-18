@@ -25,8 +25,8 @@ const appRoutes: Routes = [
     HomeModule,
     EmployeeModule,
     LocationModule,
-    RouterModule.forRoot(appRoutes) // <-- debugging purposes only
-  ],
+    RouterModule.forRoot(appRoutes) // <-- debugging purposes only    
+  ],  
   providers: [],
   bootstrap: [AppComponent]
 })
